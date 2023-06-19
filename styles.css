@@ -1,0 +1,53 @@
+body{
+    
+    background-image: url('food7.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left{
+    background-color:rgb(253, 252, 247);
+    height: 95%;
+    width:40%;
+    border: 5px solid rgb(183, 69, 52);
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+label{
+    display: block;
+    padding-left:2px;
+    padding-top:2px;
+    padding-right:2px;
+    padding-bottom:6px;
+}
+fieldset{
+    border: none;
+    padding:28px;
+    font-size: 18px;
+}
+textarea{
+    width:100%;
+    max-width: 400px;
+}
+h1{
+    text-align: center;
+    color:rgb(137, 55, 23);
+    font-family:cursive;
+    padding-bottom:none;
+    padding-top: 20px;
+    line-height:5px;
+}
+p{
+    text-align: center;
+    padding-bottom: 3px;
+}
+hr{
+    width: 90%;
+    height: 2px;
+    background-color: rgb(137, 55, 23);
+}
+input[type='number']{
+    width: 163px;
+}
