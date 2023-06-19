@@ -11,41 +11,70 @@
     <p id="description">Tell us more about yourself</p>
     <hr>
     <form id="survey-form">
-      <fieldset>
+      <!--<fieldset>
       <label id="name-label" for="name">Name  : <input type="text" id="name" placeholder="Enter your name" required></label>
       <label id="email-label" for="email">Email  : <input type="email" id="email" placeholder="Enter your email id" required></label>
       <label id="number-label" for="number">Age&emsp;: <input max="120" min="18" type="number" id="number" placeholder="Enter your age"></label>
       </fieldset>
-      <hr>
+      <hr>-->
       <fieldset>
         <label for="dropdown">Which flavor of ice-cream best represents you? 
          <label><select id="dropdown">
             <option>Select an option</option>
             <option>vanilla</option>
-            <option>butterscotch</option>
             <option>strawberry</option>
-            <option>chocolate</option>
             <option>salted-caramel</option>
             <option>cookies n' cream</option>
-            <option>mint choco-chip</option>
             <option>bubble gum</option>
           </select>
         </label></label>
         <label>
-          Pizza or burger?
+          Do you think Veg Biryani is just pulav?(Very Important Question)
         </label>
-        <label for="">
+        <label for="BiryaniIsLove">
+        <input type="radio" name="biryani" id="no" value="no" required>No
+        </label>
+
+        <label>
+          Pizza, burger or wrap?
+        </label>
+        <label for="pizza">
         <input type="radio" name="food" id="pizza" value="pizza">pizza
         </label>
         <label for="burger">
         <input type="radio" name="food" id="burger" value="burger">burger
         </label>
-        <label><input type="checkbox" value="option 1"></label>
-        <label><input type="checkbox" value="option 2"></label>
-        <label>Your thoughts about pineapple on pizza: </label>
+        <label for="wrap">
+          <input type="radio" name="food" id="wrap" value="wrap">wrap
+          </label>
+
+          <label>
+          Tea or Coffee
+          </label>
+          <label for="tea">
+          <input type="radio" name="beverage" id="tea" value="tea">tea
+          </label>
+          <label for="coffee">
+          <input type="radio" name="beverage" id="coffee" value="coffee">coffee
+          </label>
+
         <label>
-          <textarea cols="20" rows="3" placeholder="Enter your answer here"></textarea>
+        French fries on pizza ( yes, this exists.)
         </label>
+        <label for="ew">
+        <input type="radio" name="lifechoices" id="ew" value="ew">ew! Why would anyone do that?!
+        </label>
+        <label for="Bloody genius!!">
+        <input type="radio" name="lifechoices" id="Bloody genius!!" value="Bloody genius!!">That is bloody genius!
+        </label>
+        <label for="bleh">
+          <input type="radio" name="lifechoices" id="bleh" value="bleh">bleh
+          </label>
+        <!--<label>Your thoughts about pineapple on pizza: </label>
+        <label>
+          <textarea cols="20" rows="3" placeholder=""></textarea>
+        </label>-->
+        
       </fieldset>
       <input type="submit" id="submit">
 
