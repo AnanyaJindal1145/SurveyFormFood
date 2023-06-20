@@ -1,9 +1,10 @@
 body{
-    background-image: linear-gradient(180deg,rgb(41, 42, 46),rgb(27, 28, 30),rgb(0, 0, 0));
+    background-image: linear-gradient(180deg,rgb(41, 42, 46),rgb(27, 28, 30)/*,rgb(0, 0, 0)*/);
     background-repeat: no-repeat;
 }
 h1{
-    display: block;
+    margin: 1em auto;
+  text-align: center;
 }
 img{
     height:80%;
@@ -13,17 +14,18 @@ img{
     width:80%;
     height:70%;
     margin: auto;
+
 }
+
 .right{
-    flex:1;
     background-color:rgb(0, 0, 0);
     color: azure;
     width:100%;
-    display: flex;
+    margin: none;
 }
 
 .left{
-    flex:1;
+    margin: none;
 }
 hr{
     display:block;
@@ -37,21 +39,21 @@ label{
 }
 fieldset{
     border: none;
-    padding:28px;
-    font-size: 18px;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
 }
 textarea{
     width:100%;
     max-width: 400px;
 }
-h1{
+/*h1{
     text-align: center;
     color:rgb(137, 55, 23);
     font-family:cursive;
     padding-bottom:none;
     padding-top: 20px;
     line-height:5px;
-}
+}*/
 p{
     text-align: center;
     padding-bottom: 3px;
