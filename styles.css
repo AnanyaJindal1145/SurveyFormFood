@@ -34,7 +34,7 @@ img{
     padding-bottom: 0%;
     padding-left: 100px;
     height: 600px;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 .left{
@@ -66,6 +66,7 @@ input[type="radio"]{
 
 select{
     font-size: medium;
+    margin-bottom: 0px;
 }
 
 input[type="submit"] {
@@ -79,4 +80,9 @@ input[type="submit"] {
     border-color: white;
     min-width: 300px;
     color: white;
-  }
+}
+
+#burger,#wrap,#coffee,#genius{
+    margin-left: 130px;
+
+}
