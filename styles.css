@@ -66,7 +66,7 @@ input[type="radio"]{
 
 select{
     font-size: medium;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 input[type="submit"] {
